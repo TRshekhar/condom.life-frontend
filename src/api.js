@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "import.meta.env.VITE_API_URL" ||"https://condom-life-backend.onrender.com/api",
+  baseURL: "https://condom-life-backend.onrender.com/api/",
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
 });
